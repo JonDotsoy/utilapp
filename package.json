@@ -1,7 +1,7 @@
 {
   "name": "utilapp",
   "title": "UtilApp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Used to help build your app bin node.",
   "main": "lib/utilapp.js",
   "scripts": {

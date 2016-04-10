@@ -2,7 +2,7 @@
   "name": "utilapp",
   "title": "UtilApp",
   "version": "1.0.0",
-  "description": "",
+  "description": "Used to help build your app bin node.",
   "main": "lib/utilapp.js",
   "scripts": {
     "prepublish": "node_modules/.bin/babel --out-dir . src/",

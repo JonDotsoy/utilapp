@@ -1,5 +1,7 @@
 # utilapp
 
+Used to help build your app bin node.
+
 > ## Install
 
 Install with [npm](https://www.npmjs.com/)

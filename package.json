@@ -1,9 +1,8 @@
 {
   "name": "utilapp",
   "title": "UtilApp",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "",
-  "bin": "ds.js",
   "main": "lib/utilapp.js",
   "scripts": {
     "prepublish": "node_modules/.bin/babel --out-dir . src/",

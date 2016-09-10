@@ -1,13 +1,12 @@
 # utilapp
-
-Used to help build your app bin node.
+A help dialog generator. To create a dialog help on the terminal.
 
 > ## Install
 
 Install with [npm](https://www.npmjs.com/)
 
-```sh
-$ npm i utilapp --save
+```bash
+npm i utilapp --save
 ```
 
 ## Usage

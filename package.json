@@ -13,18 +13,16 @@
     "type": "git",
     "url": "git+https://github.com/JonDotsoy/utilapp.git"
   },
-  "author": "Jon Dotsoy <hi@jon.soy> (http://jon.soy/)",
+  "author": "Jonathan Delgado <hi@jon.soy> (http://jon.soy/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/JonDotsoy/utilapp/issues"
   },
   "homepage": "https://github.com/JonDotsoy/utilapp#readme",
   "devDependencies": {
-    "babel": "^6.5.2",
-    "babel-cli": "^6.7.5",
     "babel-preset-es2015": "^6.14.0",
     "babel-preset-stage-0": "^6.5.0",
-    "babel-preset-stage-3": "^6.5.0",
+    "babel-preset-stage-3": "^6.11.0",
     "babel-register": "^6.14.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",

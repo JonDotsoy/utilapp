@@ -33,7 +33,10 @@ export let version = function (pkg = {}, {
 	return `${title} v${ver}${gh}`
 }
 
-export let help = function (optsPkg = {}, {
+/**
+ * Help dialog. Generate a dialog element,
+ */
+export let help = function (pkg = {}, {
 	options:opts = {},
 	arguments:args = {},
 	forceCommand = null,
@@ -41,7 +44,7 @@ export let help = function (optsPkg = {}, {
 	spaces = 15,
 	spacesPrefix = 6,
 } = {}) {
-	let {bin, name} = optsPkg
+	let {bin, name} = pkg
 	let command, usage, example, strArgs = [], strOpts = []
 
 	if (bin !== undefined && forceCommand === null) {

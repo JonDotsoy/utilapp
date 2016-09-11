@@ -40,25 +40,25 @@ utilapp.help(pkg, {
 
 
 ## Running tests
-
 Install dev dependencies:
 
 ```sh
 $ npm i -d && npm test
 ```
 
-## Contributing
 
+## Contributing
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/JonDotsoy/utilapp/issues)
 
-## Author
 
+## Author
 **Jon Dotsoy**
 
 * [github/JonDotsoy](https://github.com/JonDotsoy)
 * [twitter/JonDotsoy](http://twitter.com/JonDotsoy)
 
-## License
 
+## License
 Copyright © 2016 [Jon Dotsoy](http://jon.soy/)
 Licensed under the MIT license.
+

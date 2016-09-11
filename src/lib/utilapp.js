@@ -1,12 +1,30 @@
 
-
-export let version = function (opts = {}, {
+/**
+ * Generator Version.
+ *
+ * @example
+ * pkg = { name: 'MyApp', version: '0.0.1', gitHead: '34badc' }
+ * 
+ * version(pkg) // "MyApp v0.0.1 (34badc)"
+ *
+ * @param {Object}          [pkg={}]             Object Pkg default
+ * @param {Object}          [opt={}]             Optional default values
+ * @param {String|Boolean}  [opt.gitHead=false]  Git head on package by default
+ * @param {String}          [opt.version]        Version on package by default
+ * @param {String}          [opt.name]           Name of package
+ */
+export let version = function (pkg = {}, {
 	gitHead:_gitHead = false,
 	version:_version = '',
 	name:_name = '',
 } = {}) {
-	let {name = _name, title = name, version:ver = _version, gitHead = _gitHead} = opts
-	let gh = ''
+	let {
+		name = _name,
+		title = name,
+		version:ver = _version,
+		gitHead = _gitHead
+	} = pkg
+	let gh = '' // Git HEAD
 
 	if (gitHead !== false) {
 		gh = ` (${gitHead})`

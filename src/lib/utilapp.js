@@ -1,4 +1,5 @@
 
+
 export let version = function (opts = {}, {
 	gitHead:_gitHead = false,
 	version:_version = '',
